@@ -44,7 +44,7 @@
     section#login{
         margin-top: 5%;
         width: 80vw;
-        height: 60%;
+        height: 70%;
     }
 
     section#login > div#imagem{
@@ -79,7 +79,7 @@
 
     div#formulario > p{
         font-size: 1.2em;
-        margin: 20px 0px;
+        margin: 5px 0px;
     }
 
     form > input[type=submit]{
