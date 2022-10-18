@@ -10,7 +10,7 @@
     section#login{
         display: block;
         width: 80vw;
-        height: 100%;
+        height: 80%;
         
     }
 
@@ -28,6 +28,11 @@
     section#login > div#formulario{
         float: right;
         width: 70%;
+    }
+
+    form > input[type=submit]{
+        margin-top: 10px;
+       
     }
 }
 
@@ -75,5 +80,9 @@
     div#formulario > p{
         font-size: 1.2em;
         margin: 20px 0px;
+    }
+
+    form > input[type=submit]{
+        margin-top: 10px;
     }
 }
