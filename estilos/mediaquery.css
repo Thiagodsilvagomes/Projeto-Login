@@ -8,7 +8,11 @@
     }
 
     section#login{
+        display: block;
+        margin-top: 15%;
         width: 80vw;
+        height: 50%;
+        
     }
 
     section#login > div#imagem{
@@ -29,13 +33,24 @@
     }
 
     section#login{
+        margin-top: 5%;
         width: 80vw;
+        height: 60%;
     }
 
     section#login > div#imagem{
         float: right;
         width: 40%;
         height: 100%;
+    }
+
+
+    div.campo > input{      
+        border: 2px solid black;
+        width: 90%;
+        height: 60%;
+        
+    
     }
 
     section#login > div#formulario{
@@ -51,5 +66,6 @@
 
     div#formulario > p{
         font-size: 1.2em;
+        margin: 20px 0px;
     }
 }

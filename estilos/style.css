@@ -67,6 +67,19 @@ form > div.campo{
     margin: 5px 0px;
 }
 
+div.campo > span{
+    font-size: 2em;
+    transform: translateY(10px);    
+}
+
+div.campo > input{      
+    border: 2px solid black;
+    width: 80%;
+    height: 70%;
+    
+
+}
+
 form label{
     display:none;
 }
@@ -80,6 +93,7 @@ form > input[type=submit]{
     color: white;
     border-radius: 10px;
     cursor: pointer;
+    margin-top: 10%;
    
 }
 
